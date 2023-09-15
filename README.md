@@ -42,3 +42,5 @@
        - (Line 39) #define programLED 26 // Pinout for Red (Camera in Program)
 * At the top of the IDE, click the Arrow once finished (Upload) and allow some time for the project to compile and transfer
    - Optional but Recommended: Set "Erase All Flash Before Sketch Upload" to 'Enabled' (Tools -> Erase All Flash Before Sketch Upload)
+## Adding the Multi-Colored 4 PIN LED (baaelectronics)
+*
