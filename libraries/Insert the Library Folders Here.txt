@@ -1,0 +1,9 @@
+Your folder structure should look like this
+M5StickCPlus/
+   (Uncompressed files of M5StickCPlus.h here)
+SkaarhojPgmspace/
+    (Uncompressed files of SkaarhojPgmspace.h here)
+ATEMbase/
+    (Uncompressed files of ATEMbase.h here)
+ATEMstd/
+    (Uncompressed files of ATEMstd.h here)
