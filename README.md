@@ -1,4 +1,4 @@
-# ATEM Tally Control for M5StickCPlus (Clarity)
+# ATEM Tally Control for M5StickC-Plus ( Clarity / BAAElectronics )
 ## Building from Source (Recommended for Updated Libraries)
 * Download the required libraries into your Arduino libraries folder
    - [(M5StickCPlus.h)](https://github.com/m5stack/M5StickC-Plus)
