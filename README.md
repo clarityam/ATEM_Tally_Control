@@ -43,5 +43,12 @@
 * At the top of the IDE, click the Arrow once finished (Upload) and allow some time for the project to compile and transfer
    - Optional but Recommended: Set "Erase All Flash Before Sketch Upload" to 'Enabled' (Tools -> Erase All Flash Before Sketch Upload)
 ## Adding the Multi-Colored 4 PIN LED ( BAAElectronics )
+* Ensure the RGB LED being used is of the common cathode type (meaning all cathodes of each emitter are tied together in a common ground). Check your LED's datasheet for the proper pinout. A common pin order is RED, GROUND (longest leg), GREEN, BLUE.
+   - Connect each anode pin to the M5's G0, G25, and G26 outputs as shown in the schematic below.
+       - G0 = blue "camera in preview/program" color by default.
+       - G25 = green "camera in preview only" by default.
+       - G26 = red "camera in program only" by default.
+   - Connect the common cathode pin to the M5's GND header.
+ 
 ![Screenshot 2023-09-15 at 12 28 54 PM](https://github.com/clarityam/ATEM_Tally_Control/assets/40682937/fec64100-079e-4b4c-96df-2b2482f5ecf0)
-
+* For a common anode configuration, connect each cathode to G0, G25, and G26. Connect the anode to the M5's 3.3v output. In Tally.ino, flip the booleans of each LED parameter passed to drawLabel() so that when a pin is held HIGH, the voltage across that emitter is zero; otherwise, a pin held LOW will apply a 3.3v differential to the emitter, causing current to flow and the emitter to light.
