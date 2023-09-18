@@ -43,5 +43,5 @@
 * At the top of the IDE, click the Arrow once finished (Upload) and allow some time for the project to compile and transfer
    - Optional but Recommended: Set "Erase All Flash Before Sketch Upload" to 'Enabled' (Tools -> Erase All Flash Before Sketch Upload)
 ## Adding the Multi-Colored 4 PIN LED ( BAAElectronics )
-*![Screenshot 2023-09-15 at 12 28 54 PM](https://github.com/clarityam/ATEM_Tally_Control/assets/40682937/fec64100-079e-4b4c-96df-2b2482f5ecf0)
+![Screenshot 2023-09-15 at 12 28 54 PM](https://github.com/clarityam/ATEM_Tally_Control/assets/40682937/fec64100-079e-4b4c-96df-2b2482f5ecf0)
 
